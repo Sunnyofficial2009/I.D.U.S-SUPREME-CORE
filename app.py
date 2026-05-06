@@ -2,10 +2,10 @@ import telebot
 import requests
 
 # --- MASTER CONFIG ---
-BOT_TOKEN = "8502149732:AAFFBScayHKfpb3vnjtZ9y1-A7NZpoz7RKE"
-ADMIN_ID = NeoVibe26Bot  # <--- YAHAN APNI USER ID DALO (userinfobot wali)
+#BOT_TOKEN = "8502149732:AAFFBScayHKfpb3vnjtZ9y1-A7NZpoz7RKE"
+#ADMIN_ID = NeoVibe26Bot  # <--- YAHAN APNI USER ID DALO (userinfobot wali)
 
-bot = telebot.TeleBot(BOT_TOKEN)
+#bot = telebot.TeleBot(BOT_TOKEN)
 
 # 1. Privacy Filter
 @bot.message_handler(func=lambda m: m.from_user.id != ADMIN_ID)
