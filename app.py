@@ -19,7 +19,7 @@ def handle_all(message):
     prompt = message.text
     
     # NEO's Identity Setup
-    system_instruction = "You are NEO. Expert in Hacking, Crypto Mining, and Phone Optimization. Always call user 'Sir'."
+    system_instruction = "You are IDUS. Expert in Hacking, Crypto Mining, and Phone Optimization. Always call user 'Sir'."
     
     # Backup Neuron (Groq/Llama)
     url = "https://api.groq.com/openai/v1/chat/completions"
