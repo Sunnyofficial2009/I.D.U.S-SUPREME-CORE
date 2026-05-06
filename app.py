@@ -3,7 +3,7 @@ import requests
 
 # --- MASTER CONFIG ---
 BOT_TOKEN = "8502149732:AAFFBScayHKfpb3vnjtZ9y1-A7NZpoz7RKE"
-ADMIN_ID = 12345678  # <--- YAHAN APNI USER ID DALO (userinfobot wali)
+ADMIN_ID = NeoVibe26Bot  # <--- YAHAN APNI USER ID DALO (userinfobot wali)
 
 bot = telebot.TeleBot(BOT_TOKEN)
 
